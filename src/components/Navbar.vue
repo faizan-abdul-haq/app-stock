@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
 
   <section class="src-components-navbar">
     <h1>src-components-navbar Component</h1>
@@ -6,7 +6,7 @@
 
 </template>
 
-<script lang="js">
+<script>
 
   export default  {
     name: 'src-components-navbar',
@@ -30,7 +30,7 @@
 
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="css">
   .src-components-navbar {
 
   }

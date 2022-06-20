@@ -1,7 +1,7 @@
 <template>
 
-  <section class="src-components-formulario">
-    <h1>src-components-formulario Component</h1>
+  <section class="src-components-inicio">
+    <h1>src-components-inicio Component</h1>
   </section>
 
 </template>
@@ -9,7 +9,7 @@
 <script>
 
   export default  {
-    name: 'src-components-formulario',
+    name: 'src-components-inicio',
     props: [],
     mounted () {
 
@@ -31,7 +31,7 @@
 </script>
 
 <style scoped lang="css">
-  .src-components-formulario {
+  .src-components-inicio {
 
   }
 </style>
