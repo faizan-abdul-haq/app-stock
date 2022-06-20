@@ -1,7 +1,51 @@
 <template>
 
   <section class="src-components-navbar">
-    <h1>src-components-navbar Component</h1>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <router-link to="/">
+        <a class="navbar-brand" href="#">Inicio</a>
+      </router-link>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <!-- Ruta al componente Inicio -->
+         <!--  <li class="nav-item">
+            <router-link to="/binding">
+              <a class="nav-link" href="#">Inicio</a>
+            </router-link>
+          </li> -->
+
+          <!-- Ruta al componente Formulario -->
+          <li class="nav-item">
+            <router-link to="/formulario">
+              <a class="nav-link" href="#">Formulario</a>
+            </router-link>
+          </li>
+
+          <!-- Ruta al componente Producto -->
+          <li class="nav-item">
+            <router-link to="/producto">
+              <a class="nav-link" href="#">Producto</a>
+            </router-link>
+          </li>
+
+          <!-- Ruta al componente Vista -->
+          <li class="nav-item">
+            <router-link to="/vista">
+              <a class="nav-link" href="#">Vista</a>
+            </router-link>
+          </li>
+
+        
+        </ul>
+      </div>
+    </nav>
   </section>
 
 </template>
